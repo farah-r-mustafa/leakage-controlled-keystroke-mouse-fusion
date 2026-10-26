@@ -1,0 +1,2 @@
+cd /d "<local_path>"
+python keystroke_mouse_stage2a_pilot.py --input "<local_path>" --output "<local_path>"

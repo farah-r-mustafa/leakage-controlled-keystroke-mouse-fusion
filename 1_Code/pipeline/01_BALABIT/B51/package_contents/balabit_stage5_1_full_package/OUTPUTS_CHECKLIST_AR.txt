@@ -1,0 +1,15 @@
+Balabit Stage 5.1 Full — Checklist
+
+[ ] 00_full_manifest.json: status = FULL_COMPLETE
+[ ] 00_source_integrity.csv: exists = True لجميع الصفوف
+[ ] 07_bootstrap_95ci_full.csv: valid_replicates مساوية للعدد المطلوب
+[ ] 07_bootstrap_95ci_full.csv: all_users_have_both_classes = True
+[ ] 09_paired_performance_deltas_full.csv مكتمل
+[ ] 10_exact_user_signflip_holm_full.csv مكتمل
+[ ] 11_hybrid_cost_justification_full.csv يحتوي القرار النهائي
+[ ] paper_tables يحتوي 7 ملفات CSV و3 ملفات LaTeX
+[ ] paper_figures يحتوي 9 ملفات PNG و9 ملفات PDF
+[ ] 13_publication_interpretation_EN.md موجود
+[ ] 14_publication_interpretation_AR.md موجود
+[ ] balabit_stage5_1_full_review.zip موجود وسليم
+[ ] run_verify_only.bat يعطي FINAL: PASS

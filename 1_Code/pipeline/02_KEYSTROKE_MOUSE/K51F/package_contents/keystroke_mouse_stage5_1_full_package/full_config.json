@@ -1,0 +1,11 @@
+{
+  "mode": "full",
+  "bootstrap_reps": 5000,
+  "alpha": 0.05,
+  "seed": 5102026,
+  "pilot_verification_required": true,
+  "selected_models": ["random_forest", "cnn", "bilstm", "cnn_bilstm"],
+  "cohorts": ["keyboard", "mouse", "multimodal_primary", "multimodal_any"],
+  "protocols": ["balanced_1to1", "realistic_all_impostor"],
+  "metrics": ["auc", "eer", "far", "frr", "f1", "mcc"]
+}

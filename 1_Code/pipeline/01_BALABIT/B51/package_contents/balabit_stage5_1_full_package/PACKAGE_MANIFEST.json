@@ -1,0 +1,59 @@
+{
+  "package": "balabit_stage5_1_full_package",
+  "version": "5.1-full-v1.0",
+  "created_at": "2026-08-02 09:02:25",
+  "default_user_bootstrap_replicates": 10000,
+  "default_session_bootstrap_replicates": 2000,
+  "seed": 2026,
+  "training": false,
+  "inference": false,
+  "threshold_refitting": false,
+  "integration_self_test": "PASS",
+  "files": [
+    {
+      "relative_path": "01_run_stage5_1_full.py",
+      "size_bytes": 39191,
+      "sha256": "380b5e73237955c110346482ba2ecb17b976350432c740ad16895855a6bd4041"
+    },
+    {
+      "relative_path": "02_verify_stage5_1_full.py",
+      "size_bytes": 2944,
+      "sha256": "7c1abe6791380f66da03b2ed2733aa38b3bbb779a88a0cea2da182fa88611224"
+    },
+    {
+      "relative_path": "OUTPUTS_CHECKLIST_AR.txt",
+      "size_bytes": 833,
+      "sha256": "6c2e4eb4e599500b425adf1eb284a5688409f16916978d8185be1b5a6a3fa933"
+    },
+    {
+      "relative_path": "README_AR.md",
+      "size_bytes": 3620,
+      "sha256": "ac26ed23de89d4d546dc7ab4f7d75aa7570157dfc656b6e49a72a156947b881b"
+    },
+    {
+      "relative_path": "SELF_TEST_REPORT.txt",
+      "size_bytes": 1230,
+      "sha256": "6fb422cd19672fc855f7e00cb90323d7648edb03bbbff6f5c282af6f0ffba8df"
+    },
+    {
+      "relative_path": "requirements_stage5_1_full.txt",
+      "size_bytes": 58,
+      "sha256": "4c8634cbf1983293f4f211254f7ac93ee824f3aea23c758b9ae78caab90ffd00"
+    },
+    {
+      "relative_path": "run_stage5_1_full.bat",
+      "size_bytes": 943,
+      "sha256": "8f411bd3f329c6a334a0490b10169ade7d31da99a687613c743c31a0cf3df947"
+    },
+    {
+      "relative_path": "run_verify_only.bat",
+      "size_bytes": 80,
+      "sha256": "d416bf467cf9a782fd9a8488d8ec02febd57b2d2efea62eb4ea34e3f3b6a079d"
+    },
+    {
+      "relative_path": "stage5_1_stats_core.py",
+      "size_bytes": 37617,
+      "sha256": "623c87cb25c1b4daa23be5b4ac5ae62414952ceed971cbf92f288885d3f11771"
+    }
+  ]
+}

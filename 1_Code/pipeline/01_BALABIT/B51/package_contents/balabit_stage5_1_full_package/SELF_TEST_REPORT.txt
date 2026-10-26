@@ -1,0 +1,27 @@
+Balabit Stage 5.1 Full Package — Integration Self-Test
+
+Status: PASS
+
+Synthetic test configuration:
+- four claimed users;
+- genuine and impostor session blocks;
+- realistic all-impostor CNN/Hybrid predictions;
+- balanced common CNN/Hybrid/Random Forest/Linear SVM predictions;
+- reduced internal test repetitions (40 user, 20 session) solely to validate code paths.
+
+Verified successfully:
+- all six prediction files loaded and aligned;
+- validation-only calibration source checks passed;
+- user and stratified session-block bootstrap completed;
+- every session replicate retained both classes;
+- paired deltas and exact sign-flip/Holm tables were generated;
+- metric and delta CIs passed point-estimate sanity checks;
+- nine publication figures were generated in PNG and PDF;
+- seven CSV and three LaTeX publication tables were generated;
+- English and Arabic publication interpretations were generated;
+- review ZIP integrity and SHA-256 verification passed;
+- verifier result: FINAL: PASS.
+
+The production batch file keeps the final settings at 10,000 user-bootstrap and
+2,000 session-block-bootstrap repetitions. The real run remains data-dependent
+and stops safely without modifying Stage 3, Stage 4, Stage 5, or Pilot v3.
