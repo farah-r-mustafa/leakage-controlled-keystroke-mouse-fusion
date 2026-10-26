@@ -1,0 +1,3 @@
+﻿role,selected_model,basis,hybrid_decision,hybrid_parameter_ratio,hybrid_size_ratio,hybrid_latency_ratio
+primary_deployment_model,CNN,No robust cluster-aware Hybrid advantage on primary metrics; substantially lower edge cost.,NOT_JUSTIFIED_OVER_CNN,3.9952355105240938,3.8362533644866468,2.3926993192723205
+accuracy_oriented_alternative,HYBRID,"Marginal numerical gains may be reported, especially lower realistic FAR, but not as statistically established overall superiority.",NOT_JUSTIFIED_OVER_CNN,3.9952355105240938,3.8362533644866468,2.3926993192723205

@@ -1,0 +1,14 @@
+﻿severity,code,detail
+INFO,VALIDATION_CLAIMS_LOADED,"CNN: 115,430 claims"
+INFO,DEEP_TEST_LOADED,"CNN: 123,800 all-impostor claims"
+INFO,TEMPERATURE_FITTED,"CNN: T=1.232327, NLL 0.574304->0.562766"
+INFO,VALIDATION_CLAIMS_LOADED,"HYBRID: 115,430 claims"
+INFO,DEEP_TEST_LOADED,"HYBRID: 123,800 all-impostor claims"
+INFO,TEMPERATURE_FITTED,"HYBRID: T=1.856969, NLL 0.663211->0.532741"
+INFO,BASELINE_THRESHOLD_REPRODUCTION,RANDOM_FOREST: saved-vs-recomputed prediction agreement=1.000000
+INFO,BASELINE_TEST_LOADED,"RANDOM_FOREST: 24,760 balanced claims"
+INFO,BASELINE_THRESHOLD_REPRODUCTION,LINEAR_SVM: saved-vs-recomputed prediction agreement=1.000000
+INFO,BASELINE_TEST_LOADED,"LINEAR_SVM: 24,760 balanced claims"
+INFO,COMMON_BALANCED_KEYS,"Exact four-model intersection: 24,760 claims"
+INFO,REALISTIC_DEEP_KEYS,"Exact CNN/Hybrid all-impostor intersection: 123,800 claims"
+WARNING,REALISTIC_BASELINE_LIMITATION,Random Forest and Linear SVM are absent from realistic_all_impostors because Stage 3 saved only 1:1 predictions and no fitted model objects. Their fair comparisons are restricted to balanced_1to1_common.

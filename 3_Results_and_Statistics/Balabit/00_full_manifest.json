@@ -1,0 +1,31 @@
+{
+  "version": "5.1-full-v1.0",
+  "status": "FULL_COMPLETE",
+  "project_root": "<local_path>",
+  "source_v3_output": "<local_path>",
+  "source_read_only": true,
+  "no_training": true,
+  "no_inference": true,
+  "no_threshold_refitting": true,
+  "user_bootstrap_replicates": 10000,
+  "session_bootstrap_replicates": 2000,
+  "seed": 2026,
+  "started_at": "2026-08-02 15:01:36",
+  "finished_at": "2026-08-02 18:40:14",
+  "duration_seconds": 13117.979,
+  "primary_inference": [
+    "claimed-user cluster bootstrap",
+    "stratified actual-session block bootstrap within claimed user and class",
+    "exact paired user sign-flip test with Holm correction"
+  ],
+  "claim_level_mcnemar_role": "descriptive_sensitivity_only",
+  "all_session_replicates_preserved_both_classes": true,
+  "bootstrap_ci_rows_excluding_point": 0,
+  "paired_delta_ci_rows_excluding_point": 0,
+  "primary_deployment_model": "CNN",
+  "hybrid_cost_decision": "NOT_JUSTIFIED_OVER_CNN",
+  "paper_figures_png": 9,
+  "paper_figures_pdf": 9,
+  "paper_tables_csv": 7,
+  "paper_tables_tex": 3
+}

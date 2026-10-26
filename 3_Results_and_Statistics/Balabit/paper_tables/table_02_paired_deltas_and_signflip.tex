@@ -1,0 +1,40 @@
+\begin{table}
+\caption{Cluster-aware paired performance differences and exact user-level tests.}
+\label{tab:stage51_deltas}
+\begin{tabular}{lllllrrrlrrr}
+\toprule
+protocol & model\_a & model\_b & metric & definition & delta & ci95\_low & ci95\_high & unit & signflip\_p & holm\_adjusted\_p & significant\_after\_holm\_0\_05 \\
+\midrule
+realistic\_all\_impostors & HYBRID & CNN & Delta\_EER & model\_a\_minus\_model\_b & -0.2764 & -0.8882 & 0.2880 & percentage\_points & 0.4160 & 1.0000 & False \\
+realistic\_all\_impostors & HYBRID & CNN & Delta\_MCC & model\_a\_minus\_model\_b & 0.0143 & -0.0000 & 0.0299 & raw & 0.1328 & 0.5312 & False \\
+realistic\_all\_impostors & HYBRID & CNN & Delta\_FAR & model\_a\_minus\_model\_b & -0.6687 & -1.2620 & -0.1753 & percentage\_points & 0.0352 & 0.1758 & False \\
+realistic\_all\_impostors & HYBRID & CNN & Delta\_FRR & model\_a\_minus\_model\_b & 0.1953 & -0.6092 & 0.9417 & percentage\_points & 0.6445 & 1.0000 & False \\
+realistic\_all\_impostors & HYBRID & CNN & Delta\_AUC & model\_a\_minus\_model\_b & 0.0823 & -0.1511 & 0.3408 & percentage\_points & 0.5566 & 1.0000 & False \\
+balanced\_1to1\_common & HYBRID & CNN & Delta\_EER & model\_a\_minus\_model\_b & 0.0435 & -0.8337 & 0.9691 & percentage\_points & 0.9375 & 1.0000 & False \\
+balanced\_1to1\_common & HYBRID & CNN & Delta\_MCC & model\_a\_minus\_model\_b & 0.0034 & -0.0098 & 0.0183 & raw & 0.6836 & 1.0000 & False \\
+balanced\_1to1\_common & HYBRID & CNN & Delta\_FAR & model\_a\_minus\_model\_b & -0.5192 & -1.3814 & 0.2679 & percentage\_points & 0.2695 & 1.0000 & False \\
+balanced\_1to1\_common & HYBRID & CNN & Delta\_FRR & model\_a\_minus\_model\_b & 0.1953 & -0.6343 & 0.9597 & percentage\_points & 0.6445 & 1.0000 & False \\
+balanced\_1to1\_common & HYBRID & CNN & Delta\_AUC & model\_a\_minus\_model\_b & 0.0411 & -0.2862 & 0.3513 & percentage\_points & 0.8086 & 1.0000 & False \\
+balanced\_1to1\_common & CNN & RANDOM\_FOREST & Delta\_EER & model\_a\_minus\_model\_b & -8.6532 & -12.9084 & -4.8269 & percentage\_points & 0.0020 & 0.0488 & True \\
+balanced\_1to1\_common & CNN & RANDOM\_FOREST & Delta\_MCC & model\_a\_minus\_model\_b & 0.1756 & 0.0922 & 0.2742 & raw & 0.0020 & 0.0488 & True \\
+balanced\_1to1\_common & CNN & RANDOM\_FOREST & Delta\_FAR & model\_a\_minus\_model\_b & -6.5879 & -10.2547 & -3.3967 & percentage\_points & 0.0039 & 0.0703 & False \\
+balanced\_1to1\_common & CNN & RANDOM\_FOREST & Delta\_FRR & model\_a\_minus\_model\_b & -10.9785 & -17.5824 & -5.4700 & percentage\_points & 0.0039 & 0.0703 & False \\
+balanced\_1to1\_common & CNN & RANDOM\_FOREST & Delta\_AUC & model\_a\_minus\_model\_b & 6.8378 & 3.0394 & 11.3560 & percentage\_points & 0.0020 & 0.0488 & True \\
+balanced\_1to1\_common & HYBRID & RANDOM\_FOREST & Delta\_EER & model\_a\_minus\_model\_b & -8.6097 & -12.8143 & -4.6978 & percentage\_points & 0.0020 & 0.0488 & True \\
+balanced\_1to1\_common & HYBRID & RANDOM\_FOREST & Delta\_MCC & model\_a\_minus\_model\_b & 0.1790 & 0.0923 & 0.2766 & raw & 0.0020 & 0.0488 & True \\
+balanced\_1to1\_common & HYBRID & RANDOM\_FOREST & Delta\_FAR & model\_a\_minus\_model\_b & -7.1071 & -10.8044 & -3.7552 & percentage\_points & 0.0039 & 0.0703 & False \\
+balanced\_1to1\_common & HYBRID & RANDOM\_FOREST & Delta\_FRR & model\_a\_minus\_model\_b & -10.7832 & -17.2544 & -5.2215 & percentage\_points & 0.0020 & 0.0488 & True \\
+balanced\_1to1\_common & HYBRID & RANDOM\_FOREST & Delta\_AUC & model\_a\_minus\_model\_b & 6.8789 & 3.0624 & 11.3985 & percentage\_points & 0.0020 & 0.0488 & True \\
+balanced\_1to1\_common & CNN & LINEAR\_SVM & Delta\_EER & model\_a\_minus\_model\_b & -11.6029 & -15.5982 & -7.3264 & percentage\_points & 0.0039 & 0.0703 & False \\
+balanced\_1to1\_common & CNN & LINEAR\_SVM & Delta\_MCC & model\_a\_minus\_model\_b & 0.2300 & 0.1460 & 0.3122 & raw & 0.0039 & 0.0703 & False \\
+balanced\_1to1\_common & CNN & LINEAR\_SVM & Delta\_FAR & model\_a\_minus\_model\_b & -9.8921 & -14.1313 & -5.8719 & percentage\_points & 0.0039 & 0.0703 & False \\
+balanced\_1to1\_common & CNN & LINEAR\_SVM & Delta\_FRR & model\_a\_minus\_model\_b & -13.0155 & -17.2877 & -8.4903 & percentage\_points & 0.0039 & 0.0703 & False \\
+balanced\_1to1\_common & CNN & LINEAR\_SVM & Delta\_AUC & model\_a\_minus\_model\_b & 9.8227 & 5.7456 & 13.9697 & percentage\_points & 0.0039 & 0.0703 & False \\
+balanced\_1to1\_common & HYBRID & LINEAR\_SVM & Delta\_EER & model\_a\_minus\_model\_b & -11.5595 & -15.3933 & -7.3403 & percentage\_points & 0.0039 & 0.0703 & False \\
+balanced\_1to1\_common & HYBRID & LINEAR\_SVM & Delta\_MCC & model\_a\_minus\_model\_b & 0.2334 & 0.1482 & 0.3127 & raw & 0.0039 & 0.0703 & False \\
+balanced\_1to1\_common & HYBRID & LINEAR\_SVM & Delta\_FAR & model\_a\_minus\_model\_b & -10.4113 & -14.6668 & -6.1512 & percentage\_points & 0.0039 & 0.0703 & False \\
+balanced\_1to1\_common & HYBRID & LINEAR\_SVM & Delta\_FRR & model\_a\_minus\_model\_b & -12.8202 & -16.8629 & -8.4307 & percentage\_points & 0.0039 & 0.0703 & False \\
+balanced\_1to1\_common & HYBRID & LINEAR\_SVM & Delta\_AUC & model\_a\_minus\_model\_b & 9.8638 & 5.7498 & 13.8256 & percentage\_points & 0.0039 & 0.0703 & False \\
+\bottomrule
+\end{tabular}
+\end{table}

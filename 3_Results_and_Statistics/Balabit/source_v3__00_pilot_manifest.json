@@ -1,0 +1,35 @@
+{
+  "version": "5.1-pilot-v3.0.0",
+  "status": "PILOT_COMPLETE_REVIEW_REQUIRED",
+  "project_root": "<local_path>",
+  "source_read_only": true,
+  "bootstrap_replicates": 300,
+  "seed": 2026,
+  "started_at": "2026-08-01 15:05:21",
+  "finished_at": "2026-08-01 15:20:31",
+  "duration_seconds": 910.044,
+  "protocols": {
+    "realistic_all_impostors": [
+      "CNN",
+      "HYBRID"
+    ],
+    "balanced_1to1_common": [
+      "CNN",
+      "HYBRID",
+      "RANDOM_FOREST",
+      "LINEAR_SVM"
+    ]
+  },
+  "full_prediction_files": [
+    "balanced_1to1_common__cnn__predictions.csv.gz",
+    "balanced_1to1_common__hybrid__predictions.csv.gz",
+    "balanced_1to1_common__linear_svm__predictions.csv.gz",
+    "balanced_1to1_common__random_forest__predictions.csv.gz",
+    "realistic_all_impostors__cnn__predictions.csv.gz",
+    "realistic_all_impostors__hybrid__predictions.csv.gz"
+  ],
+  "methodological_limitations": [
+    "Realistic all-impostor results include CNN and Hybrid only because Stage 3 retained balanced predictions rather than reusable fitted baselines.",
+    "Pilot bootstrap replicate count is configurable and should be raised for the final Full run."
+  ]
+}

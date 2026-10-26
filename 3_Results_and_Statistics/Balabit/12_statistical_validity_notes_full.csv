@@ -1,0 +1,12 @@
+﻿severity,code,detail
+INFO,SOURCE_MANIFEST_OK,Pilot v3 status: PILOT_COMPLETE_REVIEW_REQUIRED
+INFO,TEMPERATURE_SCALING_VERIFIED,Validation-only calibration succeeded and did not increase NLL.
+INFO,COMMON_RECORD_SET_VERIFIED,"Four-model common set contains 24,760 claims per model."
+INFO,SOURCE_AUDIT_NO_FATAL,No ERROR/FATAL entries found in the source audit.
+INFO,FULL_BOOTSTRAP_CONFIGURATION,"User bootstrap rows used 10,000 replicates; session-block rows used 2,000 replicates."
+INFO,CLASS_SUPPORT_PRESERVED,All session-block bootstrap rows preserved both classes: True.
+INFO,METRIC_CI_POINT_SANITY,Metric CIs excluding their original point estimate: 0 of 84.
+INFO,DELTA_CI_POINT_SANITY,Paired-delta CIs excluding their original point estimate: 0 of 60.
+LIMITATION,ONE_GENUINE_TEST_SESSION_PER_USER,The test split contains one genuine source session per claimed user; within-user genuine-session variability cannot be estimated.
+LIMITATION,CLAIM_LEVEL_MCNEMAR_DEPENDENCE,Claim-level McNemar is retained only as a descriptive sensitivity analysis because claims share windows and sessions.
+LIMITATION,REALISTIC_BASELINES_UNAVAILABLE,Random Forest and Linear SVM are unavailable under all-impostor evaluation because Stage 3 did not save reusable fitted model objects.

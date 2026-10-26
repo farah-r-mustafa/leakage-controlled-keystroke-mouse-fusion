@@ -1,0 +1,12 @@
+\begin{table}
+\caption{Model complexity, latency, throughput, and time-to-authentication.}
+\label{tab:stage51_cost}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+model & total\_parameters & checkpoint\_size\_mb & training\_seconds & single\_mean\_ms & single\_p95\_ms & throughput\_windows\_per\_second & tta\_mean\_sec & tta\_p95\_approx\_sec \\
+\midrule
+CNN & 33162.0000 & 0.1343 & 660.0546 & 1.0044 & 1.2641 & 9768.8522 & 17.5026 & 39.0976 \\
+HYBRID & 132490.0000 & 0.5152 & 1854.2990 & 2.4033 & 2.8220 & 4139.8959 & 17.5040 & 39.0991 \\
+\bottomrule
+\end{tabular}
+\end{table}

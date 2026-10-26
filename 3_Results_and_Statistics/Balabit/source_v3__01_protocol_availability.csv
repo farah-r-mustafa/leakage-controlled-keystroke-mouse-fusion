@@ -1,0 +1,9 @@
+﻿protocol,model,available,claims,reason
+realistic_all_impostors,CNN,True,123800,all Stage 5 class claims available
+realistic_all_impostors,HYBRID,True,123800,all Stage 5 class claims available
+realistic_all_impostors,RANDOM_FOREST,False,0,Stage 3 saved only balanced 1:1 claims and no reusable fitted model objects
+realistic_all_impostors,LINEAR_SVM,False,0,Stage 3 saved only balanced 1:1 claims and no reusable fitted model objects
+balanced_1to1_common,CNN,True,24760,exact record-level intersection across all four models; per-user 1:1=True
+balanced_1to1_common,HYBRID,True,24760,exact record-level intersection across all four models; per-user 1:1=True
+balanced_1to1_common,RANDOM_FOREST,True,24760,exact record-level intersection across all four models; per-user 1:1=True
+balanced_1to1_common,LINEAR_SVM,True,24760,exact record-level intersection across all four models; per-user 1:1=True

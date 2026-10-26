@@ -1,0 +1,7 @@
+﻿protocol,model,available_test_records,protocol_records,coverage_of_model_records,unique_users,unique_actual_sessions
+realistic_all_impostors,CNN,123800,123800,1.0,10,10
+realistic_all_impostors,HYBRID,123800,123800,1.0,10,10
+balanced_1to1_common,CNN,123800,24760,0.2,10,10
+balanced_1to1_common,HYBRID,123800,24760,0.2,10,10
+balanced_1to1_common,RANDOM_FOREST,24760,24760,1.0,10,10
+balanced_1to1_common,LINEAR_SVM,24760,24760,1.0,10,10
