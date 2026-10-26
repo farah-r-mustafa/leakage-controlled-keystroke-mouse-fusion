@@ -1,0 +1,18 @@
+{
+  "protocol_name": "chronological_session_split_v1",
+  "frozen_manifest_sha256": "e35422f0e48f96b6d1e4da99c9063379a6a488dd2bfa3e99d3e6e68857a7613d",
+  "eligible_population": "Prespecified core multimodal sessions from User1..User11",
+  "excluded_from_enrollment": [
+    "Alluserspreauth",
+    "INFO-only sessions",
+    "unknown user labels"
+  ],
+  "ordering": "first_event_timestamp ascending; session_id tie-break",
+  "allocation": "After fixed modality-viability inclusion, chronological 60/20/20 using half-up rounding, with explicit 1/1/1 for n=3 and 2/1/1 for n=4",
+  "leakage_guards": [
+    "All derived idle segments remain in the split of their original core session",
+    "No window may cross an original session or idle-segment boundary",
+    "No scaler, encoder, calibration, or threshold fitting is performed in Stage 2A",
+    "Raw identifiers and environment/device fields are metadata only and prohibited as model features"
+  ]
+}

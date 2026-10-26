@@ -1,0 +1,12 @@
+﻿user,event_sessions,core_multimodal_sessions,auxiliary_sessions,train_sessions,validation_sessions,test_sessions,adequate_core_session_subset
+User1,19,16,3,10,3,3,1
+User2,5,3,2,1,1,1,0
+User3,7,7,0,4,1,2,1
+User4,7,5,2,3,1,1,1
+User5,17,6,11,4,1,1,1
+User6,21,12,9,7,2,3,1
+User7,8,5,3,3,1,1,1
+User8,12,7,5,4,1,2,1
+User9,39,14,25,8,3,3,1
+User10,3,3,0,1,1,1,0
+User11,4,3,1,1,1,1,0
